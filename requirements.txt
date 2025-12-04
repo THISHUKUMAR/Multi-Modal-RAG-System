@@ -5,11 +5,9 @@ sentence-transformers
 transformers
 pdfplumber
 pytesseract
-Pillow
-opencv-python
+langchain-text-splitter
 panda
 tabula-py
 tqdm
-openai
-python-dotenv
 pdf2image
+
