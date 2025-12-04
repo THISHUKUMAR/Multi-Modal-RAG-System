@@ -1,0 +1,15 @@
+streamlit
+langchain
+faiss-cpu
+sentence-transformers
+transformers
+pdfplumber
+pytesseract
+Pillow
+opencv-python
+panda
+tabula-py
+tqdm
+openai
+python-dotenv
+pdf2image
