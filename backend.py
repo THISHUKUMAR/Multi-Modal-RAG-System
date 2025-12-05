@@ -15,7 +15,8 @@ from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document   # <-- Correct import for your version
 
 # ---- Embeddings ----
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
+
 
 # ---- Google Gemini LLM ----
 from langchain_google_genai import (
@@ -244,6 +245,7 @@ if __name__ == "__main__":
     print("\nUser Question:", user_q)
     print("\nAnswer:")
     print(answer_query(vector_db, user_q))
+
 
 
 
