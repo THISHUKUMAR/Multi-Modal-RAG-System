@@ -6,7 +6,7 @@ langchain-core
 langchain-community
 langchain-text-splitters
 langchain-google-genai
-
+pdf2image
 
 sentence-transformers
 faiss-cpu
@@ -14,6 +14,7 @@ pytesseract
 
 pdfplumber
 transformers
+
 
 
 
