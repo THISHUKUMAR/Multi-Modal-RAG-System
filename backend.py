@@ -6,7 +6,9 @@ from PIL import Image
 from pdf2image import convert_from_path
 
 # ---- LangChain Text Splitter ----
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+# from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+
 
 # ---- Vector Store ----
 from langchain_community.vectorstores import FAISS
@@ -240,6 +242,7 @@ if __name__ == "__main__":
     print("\nUser Question:", user_q)
     print("\nAnswer:")
     print(answer_query(vector_db, user_q))
+
 
 
 
