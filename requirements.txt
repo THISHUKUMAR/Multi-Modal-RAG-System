@@ -1,28 +1,28 @@
-# --- Core App ---
-streamlit==1.32.2
+
+streamlit
 pandas
 numpy
 tqdm
 
-# --- LangChain + Google Gemini ---
-langchain==0.1.13
-langchain-community==0.0.29
-langchain-google-genai==0.0.6
-google-generativeai==0.5.2
 
-# --- Text Splitters ---
-langchain-text-splitters==0.0.1
+langchain
+langchain-community
+langchain-google-genai
+google-generativeai
 
-# --- Vector DB ---
-faiss-cpu==1.7.4
 
-# --- Embeddings + Transformers ---
-sentence-transformers==2.6.1
-transformers==4.39.3
+langchain-text-splitters
 
-# --- PDF/Text/Image Ingestion ---
-pdfplumber==0.10.3
-PyPDF2==3.0.1
+
+faiss-cpu
+
+
+sentence-transformers
+transformers
+
+
+pdfplumber
+PyPDF2
 pdf2image
 pytesseract
 pillow
@@ -30,6 +30,7 @@ pillow
 
 # --- OCR ---
 easyocr==1.7.1
+
 
 
 
