@@ -14,7 +14,7 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGener
 
 
 # ---------- Configuration ----------
-GEMINI_API_KEY = "AIzaSyACaMcMOE89881GHTnXPUVGo8pWTON5oaw"
+GEMINI_API_KEY = "AIzaSyCpfS1czLljxwPsAvBUABiteuhEozFoIwQ"
 
 # Embeddings & LLM models (adjust names to valid ones)
 
@@ -216,3 +216,4 @@ if __name__ == "__main__":
     print("\nUser Question:", user_q)
     print("\nAnswer:")
     print(answer_query(vector_db, user_q))
+
