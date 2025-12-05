@@ -14,7 +14,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 
 # ---- Document Schema ----
-from langchain.schema import Document
+from langchain_core.schema import Document
 
 # ---- Embeddings ----
 from langchain.embeddings import HuggingFaceEmbeddings
@@ -242,6 +242,7 @@ if __name__ == "__main__":
     print("\nUser Question:", user_q)
     print("\nAnswer:")
     print(answer_query(vector_db, user_q))
+
 
 
 
