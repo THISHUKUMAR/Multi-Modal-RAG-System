@@ -1,26 +1,24 @@
 # STREAMLIT
-streamlit==1.32.2
+streamlit==1.38.0
 
-# LANGCHAIN ECOSYSTEM (MUST MATCH EXACTLY)
-langchain==0.1.13
-langchain-core==0.1.27
-langchain-community==0.0.29
-langchain-text-splitters==0.0.1
-
-# GEMINI
-langchain-google-genai==0.0.6
-google-generativeai==0.3.2
+# LANGCHAIN ECOSYSTEM (pinned versions for compatibility)
+langchain==1.1.2
+langchain-core==1.1.1
+langchain-community==0.4.1
+langchain-text-splitters==1.0.0
+langchain-google-genai==1.0.5
+google-generativeai==0.6.0
 
 # EMBEDDINGS
 sentence-transformers==2.6.1
 
 # VECTOR DB
-faiss-cpu==1.7.4
+faiss-cpu==1.13.1
 
 # PDF
-pdfplumber==0.10.3
+pdfplumber==0.11.4
 pypdf==4.2.0
 
 # HUGGINGFACE
-transformers==4.37.2
-torch==2.2.2
+transformers==4.40.2
+torch==2.3.1
