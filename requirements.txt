@@ -6,7 +6,6 @@ langchain==1.1.2
 langchain-core==1.1.1
 langchain-community==0.4.1
 langchain-text-splitters==1.0.0
-langchain-google-genai==1.0.5
 google-generativeai==0.6.0
 
 # EMBEDDINGS
@@ -21,4 +20,5 @@ pdfplumber==0.11.4
 
 # HUGGINGFACE
 transformers==4.40.2
+
 
