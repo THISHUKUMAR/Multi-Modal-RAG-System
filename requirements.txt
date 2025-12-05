@@ -5,7 +5,7 @@ streamlit==1.38.0
 langchain==1.1.2
 langchain-community==0.4.1
 langchain-text-splitters==1.0.0
-langchain-google-genai==2.0.10  # Last stable version compatible with langchain>=1.1.0
+langchain-google-genai==1.0.5  # compatible with langchain 1.1.2
 
 # Vector DB
 faiss-cpu==1.13.1
