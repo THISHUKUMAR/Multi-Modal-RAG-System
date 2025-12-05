@@ -10,10 +10,11 @@ langchain-google-genai
 
 sentence-transformers
 faiss-cpu
-
+pytesseract
 
 pdfplumber
 transformers
+
 
 
 
