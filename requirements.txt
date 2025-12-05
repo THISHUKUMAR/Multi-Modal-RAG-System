@@ -1,25 +1,20 @@
-# STREAMLIT
-streamlit==1.38.0
 
-# LANGCHAIN ECOSYSTEM (pinned versions for compatibility)
-langchain==1.1.2
-langchain-core==1.1.1
-langchain-community==0.4.1
-langchain-text-splitters==1.0.0
-langchain-google-genai==1.0.5
+streamlit
 
-# EMBEDDINGS
-sentence-transformers==2.6.1
-
-# VECTOR DB
-faiss-cpu==1.13.1
-
-# PDF
-pdfplumber==0.11.4
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-google-genai
 
 
-# HUGGINGFACE
-transformers==4.40.2
+sentence-transformers
+faiss-cpu
+
+
+pdfplumber
+transformers
+
 
 
 
