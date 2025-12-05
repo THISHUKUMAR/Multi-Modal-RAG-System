@@ -1,8 +1,9 @@
-streamlit
-langchain
-langchain-community
-langchain-text-splitters
-langchain-google-genai
+streamlit==1.38.0
+langchain==1.1.2
+langchain-core==1.1.1
+langchain-community==0.4.1
+langchain-text-splitters==1.0.0
+langchain-google-genai==2.0.10
 faiss-cpu
 pdfplumber
 pdf2image
@@ -10,4 +11,5 @@ pytesseract
 Pillow
 pandas
 numpy
+
 
