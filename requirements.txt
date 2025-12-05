@@ -1,27 +1,28 @@
 # Web app
-streamlit==1.38.0
-rich==13.7.1            # must be <14 to satisfy Streamlit
+streamlit
+rich
 
-# LangChain ecosystem (versions chosen to be compatible)
-langchain==1.1.2
-langchain-core==1.1.1
-langchain-community==0.4.1
-langchain-text-splitters==1.0.0
-langchain-google-genai==2.0.10
 
-# Vector DB
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-google-genai
+
+
 faiss-cpu==1.13.1
 
-# PDF & image processing
-pdfplumber==0.10.3
-pdf2image==1.16.0
-pytesseract==0.3.10
-Pillow==10.0.1
 
-# Data
-pandas==2.1.1
+pdfplumber
+pdf2image
+pytesseract
+Pillow
 
-# Small helper libs
-markdown-it-py==4.0.0
-pygments==2.19.2
-mdurl==0.1.2
+
+pandas
+
+
+markdown-it-py
+pygments
+mdurl
+
