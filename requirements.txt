@@ -6,6 +6,8 @@ rich
 langchain
 langchain-core
 langchain-community
+langchain-huggingface==0.1.0
+
 langchain-text-splitters
 langchain-google-genai
 
@@ -25,4 +27,5 @@ pandas
 markdown-it-py
 pygments
 mdurl
+
 
