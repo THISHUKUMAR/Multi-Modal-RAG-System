@@ -1,34 +1,26 @@
-streamlit
+# STREAMLIT
+streamlit==1.32.2
 
+# LANGCHAIN ECOSYSTEM (MUST MATCH EXACTLY)
+langchain==0.1.13
+langchain-core==0.1.27
+langchain-community==0.0.29
+langchain-text-splitters==0.0.1
 
-langchain
-langchain-core
-langchain-community
-langchain-text-splitters
-langchain-google-genai
+# GEMINI
+langchain-google-genai==0.0.6
+google-generativeai==0.3.2
 
+# EMBEDDINGS
+sentence-transformers==2.6.1
 
-google-generativeai
+# VECTOR DB
+faiss-cpu==1.7.4
 
+# PDF
+pdfplumber==0.10.3
+pypdf==4.2.0
 
-faiss-cpu
-
-
-sentence-transformers
-transformers
-torch
-safetensors
-
-
-pdfplumber
-PyPDF2
-pdf2image
-pytesseract
-Pillow
-
-
-numpy
-pandas
-
-tqdm
-
+# HUGGINGFACE
+transformers==4.37.2
+torch==2.2.2
