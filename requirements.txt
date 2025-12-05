@@ -1,39 +1,33 @@
 streamlit==1.33.0
 
-# ---- LangChain stable set ----
+# --- LangChain stable set (Python 3.11 compatible) ---
 langchain==0.1.14
-langchain-core==0.1.31
+langchain-core==0.1.39
 langchain-community==0.0.28
 langchain-text-splitters==0.0.1
-langchain-google-genai==0.0.6
+langchain-google-genai==1.0.5
 
-# ---- Google Generative AI ----
+# --- Google ---
 google-generativeai==0.3.2
 
-# ---- Vector DB ----
-faiss-cpu==1.8.0
+# --- Vector DB ---
+faiss-cpu==1.13.1
 
-# ---- PDF + OCR ----
+# --- Embeddings ---
+sentence-transformers==2.6.1
+transformers==4.39.3
+torch==2.2.2
+safetensors==0.4.2
+
+# --- PDF + OCR ---
 pdfplumber==0.10.3
 PyPDF2==3.0.1
 pdf2image==1.17.0
 pytesseract==0.3.10
 Pillow==10.3.0
 
-# ---- Data ----
+# --- Utils ---
+numpy==1.26.4
 pandas==2.2.2
-
-# ---- HuggingFace Embeddings ----
-sentence-transformers==2.6.1
-transformers==4.39.3
-torch==2.2.2
-safetensors==0.4.2
-
-# ---- Utilities ----
 python-dotenv==1.0.1
 tqdm==4.66.4
-numpy==1.26.4
-
-
-
-
