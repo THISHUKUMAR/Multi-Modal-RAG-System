@@ -4,7 +4,7 @@ langchain-core==1.1.1
 langchain-community==0.4.1
 langchain-text-splitters==1.0.0
 langchain-google-genai==2.0.10
-faiss-cpu==1.7.4
+faiss-cpu==1.13.1
 pdfplumber==0.10.3
 pdf2image==1.16.0
 pytesseract==0.3.10
