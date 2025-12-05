@@ -1,20 +1,31 @@
+# import os
+# import pdfplumber
+# import pytesseract
+# import pandas as pd
+# from PIL import Image
+# from pdf2image import convert_from_path
+# # from langchain.text_splitter import RecursiveCharacterTextSplitter
+# from langchain_text_splitters import RecursiveCharacterTextSplitter
+# from langchain_community.vectorstores import FAISS
+# from langchain.schema import Document
+# # from langchain.embeddings import HuggingFaceEmbeddings
+# from langchain_community.embeddings import HuggingFaceEmbeddings
+# from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
+
 import os
 import pdfplumber
 import pytesseract
 import pandas as pd
 from PIL import Image
+
 from pdf2image import convert_from_path
 
-# from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-
 from langchain_community.vectorstores import FAISS
-from langchain.schema import Document
-# from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_core.documents import Document
 from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_google_genai import ChatGoogleGenerativeAI
 
-
-from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 
 
 # ---------- Configuration ----------
@@ -220,5 +231,6 @@ if __name__ == "__main__":
     print("\nUser Question:", user_q)
     print("\nAnswer:")
     print(answer_query(vector_db, user_q))
+
 
 
