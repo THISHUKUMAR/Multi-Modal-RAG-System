@@ -1,25 +1,12 @@
-# Streamlit
 streamlit==1.38.0
-
-# LangChain ecosystem
-langchain==1.1.2
-langchain-community==0.4.1
-langchain-text-splitters==1.0.0
-langchain-google-genai==1.0.5  # compatible with langchain 1.1.2
-
-# Vector DB
-faiss-cpu==1.13.1
-
-# PDF & Images
-pdfplumber==0.11.4
-pdf2image==1.16.3
-pytesseract==0.3.10
-Pillow==10.4.0
-
-# Embeddings / Transformers
-sentence-transformers==2.6.1
-transformers==4.40.2
-
-# Utilities
-pandas==2.3.3
-numpy==2.3.5
+langchain==0.1.148
+langchain-community==0.0.29
+langchain-text-splitters==0.4.3
+langchain-google-genai==1.0.5
+faiss-cpu
+pdfplumber
+pdf2image
+pytesseract
+Pillow
+pandas
+numpy
